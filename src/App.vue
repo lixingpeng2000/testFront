@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    app.vue页面内容
     <router-view/>
   </div>
 </template>
