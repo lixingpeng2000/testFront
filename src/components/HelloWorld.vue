@@ -4,6 +4,8 @@
       {{ msg }}
     </div>
     <div>{{ res }}</div>
+
+    <div>{{ name }}</div>
   </div>
 </template>
 
@@ -14,6 +16,7 @@ export default {
     return {
       msg: "Welcome to Your Vue.js App",
       res: "just test data",
+      name:"汽车票"
     };
   },
 };
